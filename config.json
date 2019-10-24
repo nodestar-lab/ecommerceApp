@@ -1,0 +1,8 @@
+{
+    "serverName" : "ShoppingApp",
+    "dbname" :"shoppingApp",
+    "port" :"5555",
+    "additional_service" :"./service",
+    "base_dir" : "basepath",
+    "asset" :["path/one","path/two","path/three"]
+}
