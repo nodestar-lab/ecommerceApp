@@ -1,13 +1,19 @@
-const routers = [
-    {
-        route : "/login",
-        handler : "LoginService" 
+const routers = [{
+        route: "/settings",
+        handler: "BasicAppSetting"
     },
     {
         route: "/error",
-        handler : "ErrorHandler" 
+        handler: "ErrorHandler"
     },
-
+    {
+        route: "/search",
+        handler: "SearchHandler"
+    },
+    {
+        route: "/navs",
+        handler: "NavService"
+    }
 ]
 
 module.exports = routers;
