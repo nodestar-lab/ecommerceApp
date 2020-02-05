@@ -1,19 +1,29 @@
 const routers = [{
         route: "/settings",
-        handler: "BasicAppSetting"
+        handler: "BasicAppSetting",
+        request_type: "post"
     },
     {
         route: "/error",
-        handler: "ErrorHandler"
+        handler: "ErrorHandler",
+        request_type: "post"
     },
     {
         route: "/search",
-        handler: "SearchHandler"
+        handler: "SearchHandler",
+        request_type: "post"
     },
     {
         route: "/navs",
-        handler: "NavService"
-    }
+        handler: "NavService",
+        request_type: "post"
+    },
+    {
+        route: "/dashboard",
+        handler: "DashboardService",
+        request_type: "get"
+    },
+
 ]
 
 module.exports = routers;
