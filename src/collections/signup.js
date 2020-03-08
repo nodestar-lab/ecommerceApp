@@ -10,4 +10,4 @@ module.exports = {
         updated: Date,
         created: Date
     }
-}
+};

@@ -1,12 +1,13 @@
 module.exports = {
     collection_name: "user",
-    indexFields: [{
+    indexFields: [
+        {
             key: "email",
-            value: "text" // specify which type of index text based or id based 
+            value: "text" // specify which type of index text based or id based
         },
         {
             key: "username",
-            value: 1 // specify which type of index text based or id based 
+            value: 1 // specify which type of index text based or id based
         }
     ],
     fields: {
@@ -15,7 +16,9 @@ module.exports = {
         password: String,
         region_details: Object,
         addresses: Object,
+        roles: Array,
+        type: String,
         updated: Date,
         created: Date
     }
-}
+};

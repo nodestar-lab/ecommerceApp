@@ -23,6 +23,11 @@ const routers = [{
         handler: "DashboardService",
         request_type: "get"
     },
+    {
+        route: "/_wk/:tab",
+        handler: "TabHandler",
+        request_type: "get"
+    }
 
 ]
 
